@@ -1,36 +1,52 @@
 [
   {
-    "name": "Guardian Angel",
+    "name": "Multilabel Emotion Classification",
     "techs": [
-      "Kotlin",
-      "RoomsDB",
       "Python",
-      "MongoDB",
-      "Heroku"
+      "PyTorch",
+      "ModernBERT",
+      "Gemma-2-2B",
+      "LoRA",
+      "vLLM",
+      "HuggingFace",
+      "NLP"
     ],
-    "description": "An innovative Android application designed to enhance the well-being and safety of users by monitoring and providing personalized suggestions for various aspects of their daily lives.",
-    "github": "https://github.com/Shikhar97/Guardian-Angel",
+    "description": "Developed and evaluated five deep learning approaches for multilabel emotion classification on Twitter data across 11 emotion categories. Fine-tuned ModernBERT and Gemma-2-2B using LoRA and 4-bit quantization, and deployed models for inference using vLLM with constrained decoding.",
+    "github": "",
     "website": "",
     "imgSrc": "/images/diashield.jpeg",
     "type": "Featured Project"
   },
   {
-    "name": "CloudVision: Serverless Video Analysis Platform",
+    "name": "Credit Risk Prediction Model",
     "techs": [
       "Python",
-      "Go",
-      "DynamoDB",
-      "OpenFaas",
-      "Ceph",
-      "AWS",
-      "Docker",
-      "Kubernetes"
+      "XGBoost",
+      "Neural Networks",
+      "SHAP",
+      "Scikit-Learn",
+      "Pandas"
     ],
-    "description": "This project involves the integration of AWS services, OpenFaaS, Ceph, and other tools to perform cloud-based video processing and data analysis. The primary goal is to develop a system that can handle automated video analysis tasks, such as face recognition, using serverless functions and distributed storage.",
-    "github": "https://github.com/Shikhar97/Hybrid-Cloud",
+    "description": "Built a credit risk prediction framework on the American Express dataset (5.5M rows, 190 features) achieving XGBoost AUC ~0.95. Engineered behavioral features, reduced dimensionality to 17 predictors via SHAP analysis, and designed conservative vs. aggressive approval strategies.",
+    "github": "",
     "website": "",
     "imgSrc": "/images/cloudvidpro.jpg",
     "type": "Featured Project"
+  },
+  {
+    "name": "Conagra Brands – Sales Forecasting",
+    "techs": [
+      "Python",
+      "R",
+      "LASSO Regression",
+      "Clustering",
+      "Tableau",
+      "Pandas"
+    ],
+    "description": "Analyzed 50k+ retail transactions using clustering and LASSO regression to identify key sales drivers and three distinct consumer segments. Buyer persona profiling across demographics. Recognized as a Top 3 presentation out of 20 teams. Sponsored by Conagra Brands.",
+    "github": "",
+    "website": "",
+    "imgSrc": "/images/diashield.jpeg",
+    "type": "Featured Project"
   }
-
 ]

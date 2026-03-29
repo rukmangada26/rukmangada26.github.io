@@ -16,19 +16,15 @@ const Hero = () => {
         <Highlight>Hi, my name is</Highlight>
       </p>
       <h2 className={styles.name}>Rukmangada. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
-        <h3 className={styles.subText}>I love challenging myself every day
-            {/*<a href="https://git.io/typing-svg"><img*/}
-            {/*    src="https://readme-typing-svg.herokuapp.com?font=Open+Sans&size=40&pause=1000&color=F7F7F7&center=false&vCenter=true&random=false&width=435&lines=Cloud+Engineer;Full+Stack+Developer;ML+Engineer;Back+End+Developer"*/}
-            {/*    alt="Typing SVG"/></a>*/}
-        </h3>
+        <h3 className={styles.subText}>I turn data into actionable insights.</h3>
         <p className={styles.description}>
-            I bring over 5 years of experience specializing in Data Engineering and Data Analytics. I am currently pursuing my MS in Business Analytics and Artificial Intelligence from {" "}&nbsp;
+            I am an aspiring Data Scientist with 5+ years of experience in Data Engineering, Machine Learning, and Analytics. Currently pursuing my MS in Business Analytics and Artificial Intelligence at {" "}&nbsp;
         <Link
                 href="https://jindal.utdallas.edu/"
           target="_blank"
           rel="noreferrer noopener"
         >
-          <Highlight>University of Texas at Dallas </Highlight>
+          <Highlight>University of Texas at Dallas</Highlight>
         </Link>
       </p>
       <Button className={styles.callToAction} onClick={scrollToContact}>

@@ -23,11 +23,11 @@ const About = ({ ...delegated }: Props) => {
             <div className={styles.aboutme}>
                 <SectionTitle side={"left"}>About Me</SectionTitle>
                 <p className={styles.description}>
-                    Hi there! My name is Rukmangada and I am pursuing MS in Business Analytics and 
-                    Artifical Intelligence from University of Texas at Dallas. As I embark on the 
-                    next chapter of my career, I am exploring new opportunities for full-time roles in 
-                    Data Engineering and Data Analyst/ Business Intelligence Engineer.
-
+                    Hi there! My name is Rukmangada and I am pursuing MS in Business Analytics and
+                    Artificial Intelligence from the University of Texas at Dallas. I am an aspiring
+                    Data Scientist with 5+ years of professional experience, passionate about building
+                    ML models, developing ETL pipelines, and turning complex data into actionable
+                    business insights.
                 </p>
                 <div className={styles.description}>
                     What I bring to the table:<br/>
@@ -39,7 +39,7 @@ const About = ({ ...delegated }: Props) => {
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                             </svg>
-                            5+ Years of Professional Experience as a Data Engineer
+                            5+ Years of Professional Experience in Data Engineering &amp; Analytics
                         </li>
                         <li className="flex items-start">
                             <svg className="w-4 h-4 mt-1 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
@@ -48,8 +48,7 @@ const About = ({ ...delegated }: Props) => {
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                             </svg>
-                            Proficiency in Python, PySpark, Spark, SQL, Airflow, Docker Kubernetes, Github, AWS services (S3, EMR, IAM, Lambda, etc.), Numpy, Pandas, MongoDB, Bash, etc.
-
+                            Proficiency in Python, PySpark, SQL, BigQuery, Airflow, PyTorch, TensorFlow, XGBoost, Scikit-Learn, Pandas, NumPy, Power BI, Tableau
                         </li>
                         <li className="flex items-start">
                             <svg className="w-4 h-4 mt-1 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
@@ -58,7 +57,7 @@ const About = ({ ...delegated }: Props) => {
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                             </svg>
-                            Expertise in processing and transforming large structured and non-structured data
+                            Expertise in Machine Learning, Deep Learning, NLP, and building end-to-end data pipelines
                         </li>
                         <li className="flex items-start">
                             <svg className="w-4 h-4 mt-1 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
@@ -67,13 +66,10 @@ const About = ({ ...delegated }: Props) => {
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                             </svg>
-
                             • Certification of Executive General Management Program from Indian Institute of Management Calcutta (IIM Calcutta)
                             <br />
                             • Certification of Meta Database Engineer from Coursera
-   
                         </li>
-
                     </ul>
                 </div>
                 <Button className={styles.download} onClick={downloadResume}>
@@ -83,7 +79,7 @@ const About = ({ ...delegated }: Props) => {
             <picture className={styles.picture}>
                 <source media={MIN_WIDTH.desktop} srcSet={aboutUrl}/>
                 <source media={MIN_WIDTH.tablet} srcSet={aboutUrlSmall}/>
-                <img src={aboutUrl} alt="Shikhar Gupta"/>
+                <img src={aboutUrl} alt="Rukmangada"/>
             </picture>
         </div>
     );
