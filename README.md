@@ -1,19 +1,6 @@
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/shikharg)
 <div style="text-align:center">
-  <img alt="Logo" src="https://github.com/Shikhar97/Shikhar97.github.io/blob/v2/public/images/logo.png" width="100" />
-</div>
-<h1 style="text-align:center">
-  Portfolio Website v2
-</h1>
-<p style="text-align:center">
-  Built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
-</p>
-
-
-<div style="text-align:center">
-
-  <img alt="Demo" src="https://github.com/Shikhar97/Shikhar97.github.io/blob/v2/public/images/opengraph-image.jpg" />
-
+<h1>Rukmangada's Portfolio</h1>
+  <p>Built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
 </div>
 
 
