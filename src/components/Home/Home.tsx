@@ -7,7 +7,7 @@ import Experiences from "@/components/Experiences";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-// import Projects from "@/components/Projects";
+import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 //import Splash from "@/components/Splash";
 import Technical from "@/components/Technical";
@@ -26,7 +26,7 @@ const App = ({ initialTheme }: { initialTheme: string }) => {
                 </Dots>
                 <About/>
                 <Experiences/>
-                {/* <Projects/> */}
+                <Projects/>
                 <Technical/>
                 <Education/>
                 <Contact/>
