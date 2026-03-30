@@ -28,7 +28,7 @@
       "Pandas"
     ],
     "description": "Built a credit risk prediction framework on the American Express dataset (5.5M rows, 190 features) achieving XGBoost AUC ~0.95. Engineered behavioral features, reduced dimensionality to 17 predictors via SHAP analysis, and designed conservative vs. aggressive approval strategies.",
-    "github": "",
+    "github": "https://github.com/rukmangada26/masters-projects/tree/main/semester-2/machine-learning",
     "website": "",
     "imgSrc": "/images/cloudvidpro.jpg",
     "type": "Featured Project"
@@ -44,9 +44,39 @@
       "Pandas"
     ],
     "description": "Analyzed 50k+ retail transactions using clustering and LASSO regression to identify key sales drivers and three distinct consumer segments. Buyer persona profiling across demographics. Recognized as a Top 3 presentation out of 20 teams. Sponsored by Conagra Brands.",
-    "github": "",
+    "github": "https://github.com/rukmangada26/masters-projects/tree/main/semester-2/predictive-analytics",
     "website": "",
     "imgSrc": "/images/diashield.jpeg",
     "type": "Featured Project"
+  },
+  {
+    "name": "Image Classification with CNNs (CIFAR-10)",
+    "techs": [
+      "Python",
+      "PyTorch",
+      "CNN",
+      "CIFAR-10",
+      "Deep Learning",
+      "Computer Vision"
+    ],
+    "description": "Designed and trained convolutional neural networks on the CIFAR-10 dataset for 10-class image classification. Explored architecture choices including batch normalization, dropout, and data augmentation to improve generalization and accuracy.",
+    "github": "https://github.com/rukmangada26/masters-projects/tree/main/semester-2/deep-learning/project-1-image-classification",
+    "website": "",
+    "imgSrc": "/images/diashield.jpeg",
+    "type": "Project"
+  },
+  {
+    "name": "Deep Learning – Final Project",
+    "techs": [
+      "Python",
+      "PyTorch",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "description": "Final deep learning course project applying advanced neural network architectures and training techniques to a real-world problem.",
+    "github": "https://github.com/rukmangada26/masters-projects/tree/main/semester-2/deep-learning/project-2",
+    "website": "",
+    "imgSrc": "/images/cloudvidpro.jpg",
+    "type": "Project"
   }
 ]
